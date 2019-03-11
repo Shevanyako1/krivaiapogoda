@@ -1,0 +1,93 @@
+.container{
+    float: right;
+    text-align: right;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2{
+    text-decoration: underline;
+    margin-bottom: -15px;
+}
+
+.pogod{
+    margin-top: 20px;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.1);
+    float: right;
+    margin-top: 80px;
+    margin-right: 150px;
+    padding: 10px 41px;
+}
+
+form input{
+    font-size: 26px;
+    font-family: 'Philosopher', sans-serif;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 20px 20px 5px 20px;
+    border-bottom: 1px solid rgb(253, 253, 255);
+    color: rgb(250, 250, 250);
+    text-transform: capitalize;
+}
+
+
+.weath-btn:focus{
+    outline: none;
+    border-bottom: 1px solid white;    
+}
+
+.weath-btn{
+    padding: 8px;
+    margin-left: 15px;
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+   border: none;
+   background:transparent;
+   border-bottom: 1px solid white;
+}
+
+.weath-btn:active{
+    transform: translateY(1px);
+}
+
+.weather-result{
+    display: none;
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 175px;
+    transition: 2s;
+}
+
+.weather-icons{
+    width: 50px;
+    height: 50px;   
+    margin: 5px 10px -15px 0;
+}
+
+.weather-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 200px;
+    text-align: left;
+}
+
+.weather-list-item{
+    margin-left: -50px;
+    font-size: 34px;
+    margin-top: 20px;
+}
+
+.weath-last-update{
+    font-size: 12px;
+}
